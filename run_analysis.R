@@ -47,3 +47,6 @@ meandata <- summarize_all(grouped_data, funs(mean))
 
 #Writing the dataset to a file 
 write.table(meandata,"meandata.txt")
+
+#Setting ouput as the final dataset
+meandata
